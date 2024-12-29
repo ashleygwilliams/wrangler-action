@@ -266,7 +266,7 @@ async function uploadSecrets(
 			);
 		}
 
-		const args = ["wrangler", "secret:bulk"];
+		const args = ["wrangler", "secret", "bulk"];
 
 		if (environment) {
 			args.push("--env", environment);
