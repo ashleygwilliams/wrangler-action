@@ -19,7 +19,7 @@ const PACKAGE_MANAGERS = {
 		execNoInstall: "yarn",
 	},
 	pnpm: {
-		install: "pnpm add",
+		install: "pnpm add -g",
 		exec: "pnpm exec",
 		execNoInstall: "pnpm exec",
 	},
